@@ -1,0 +1,234 @@
+.main-col {
+    margin-top: 50px;
+}
+
+.form-title {
+    float: left;
+    margin-bottom: 0;
+}
+
+.form-title-error {
+    float: left;
+    margin-bottom: 0;
+    color: red;
+}
+
+.form-title-input {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.form-title-input-error {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid red;
+}
+
+.form-counter {
+    float: right;
+    font-size: 12px;
+}
+
+.form-counter-error {
+    float: right;
+    font-size: 12px;
+    color: red;
+}
+
+.form-message {
+    float: left;
+    font-size: 12px;
+    color: red;
+}
+
+.non-active {
+    display: none;
+}
+
+
+/* Description */
+
+.form-desc {
+    float: left;
+    margin-top: 10px;
+}
+
+.form-desc-error {
+    float: left;
+    margin-top: 10px;
+    color: red;
+}
+
+.form-desc-input {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0%;
+}
+
+.form-desc-input-error {
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 0%;
+}
+
+
+/* Price */
+
+.form-price {
+    float: left;
+    margin-top: 10px;
+}
+
+.form-price-error {
+    float: left;
+    margin-top: 10px;
+    color: red;
+}
+
+.form-price-input {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0%;
+}
+
+.form-price-input-error {
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 0%;
+}
+
+/* Duration */
+
+.form-duration {
+    float: left;
+}
+
+.form-duration-error {
+    float: left;
+    color: red;
+}
+
+.form-duration-input {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0%;
+}
+
+.form-duration-input-error {
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 0%;
+}
+
+
+/* Tags */
+
+.form-tag {
+    float: left;
+}
+
+.form-tag-error {
+    float: left;
+    color: red;
+}
+
+.form-tag-input {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.form-tag-input-error {
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 0%;
+}
+
+.add-button {
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.add-button-error {
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 20px;
+    height: 60px;
+    width: 60px;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.add-button:hover {
+    background-color:#ed6700;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tag {
+    background-color: #d4d4d4;
+    float: left;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.tag-title {
+    margin-top: 2px;
+    float: left;
+}
+
+.tag-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    color: #666666;
+}
+
+/* Buttons */
+
+.buttons {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.button-item {
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border: red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-item-disabled {
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border: rgb(255, 61, 61);
+    background-color:rgb(255, 61, 61);
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+}
+

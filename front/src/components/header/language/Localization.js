@@ -1,0 +1,155 @@
+import LocalizedStrings from "react-localization";
+
+class Localization {
+    constructor() {
+        this.strings = new LocalizedStrings({
+            en: {
+                ru: 'Russian',
+                en: 'English',
+                certificates: 'Certificates',
+                addNew: 'Add new certificate',
+                signIn: 'Sign in',
+                signUp: 'Sign up',
+                signOut: 'Sign out',
+                language: 'Language',
+                login: 'Login',
+                loginMessage: 'Login should have from 5 to 8 symbols and login can have letter characters, numbers',
+                password: 'Password',
+                passwordMessage: 'Password should have from 5 to 8 symbols and contain letter, number characters',
+                enterYourLogin: 'Enter your login',
+                enterYourPassword: 'Enter your password',
+                logIn: 'Log in',
+                cancel: 'Cancel',
+                firstName: 'First name',
+                firstNameMessage: 'Name should start with upper case, have from 2 to 20 symbols and contain letter characters',
+                firstNameEnt: 'Enter your first name',
+                lastName: 'Last name',
+                lastNameMessage: 'Surname should start with upper case, have from 2 to 20 symbols and contain letter characters',
+                lastNameEnt: 'Enter your last name',
+                // Certificate page
+                size: 'Size',
+                all: 'All',
+                my: 'My certificates',
+                search: 'Search',
+                date: 'Date',
+                title: 'Title',
+                desc: 'Description',
+                price: 'Price',
+                edit: 'Edit',
+                delete: 'Delete',
+                toBasket: 'To basket',
+                close: 'Close',
+                creationDate: 'Creation date',
+                deleteQuestion: 'Do you want to delete this certificate?',
+                deleteCancel: 'CANCEL',
+                deleteOk: 'OK',
+                // Edit page
+                titleMessage: 'Title should have from 2 to 25 symbols, can contain letter, numbers characters and underscore',
+                descMessage: 'Description should have from 10 to 240 symbols, can contain letter, numbers, whitespaces, dot and comma',
+                priceMessage: 'Price example - 1.99',
+                durationMessage: 'Duration should be more than 0 and less than 10000',
+                tagNameMessage: 'Tag name should be from 1 to 20 symbols, can contain letters, numbers, ',
+                editCertificate: 'Edit certificate',
+                addCertificate: 'Add certificate',
+                duration: 'Duration',
+                tag: 'Tag',
+                enterTitle: 'Enter title',
+                enterDesc: 'Enter description',
+                enterPrice: 'Enter price',
+                enterDuration: 'Enter duration',
+                enterTag: 'Enter a tag name',
+                add: 'Add',
+                save: 'Save',
+                editCertificate: 'Certificate was updated',
+                saveCertificate: 'Certificate was created',
+                deleteCertificate: 'Certificate was deleted',
+                // Basket
+                basketTitle: 'Shopping basket',
+                buy: 'Buy',
+                buyMessage: 'Thank you for your order',
+                clear: 'Clear',
+                clearQuestion: 'Do you really want to clear your basket?',
+                cleanMessage: 'You cleaned your basket'
+            },
+            ru: {
+                ru: 'Русский',
+                en: 'Английский',
+                certificates: 'Сертификаты',
+                addNew: 'Добавить новый сертификат',
+                signIn: 'Войти',
+                signUp: 'Зарегистрироваться',
+                signOut: 'Выйти',
+                language: 'Язык',
+                login: 'Логин',
+                loginMessage: 'Логин должен содержать от 5 до 8 символов и может состоять из букв, цифр',
+                password: 'Пароль',
+                passwordMessage: 'Пароль должен содержать от 5 до 8 символов и может состоять из букв и цифр',
+                enterYourLogin: 'Введите ваш логин',
+                enterYourPassword: 'Введите ваш пароль',
+                logIn: 'Войти',
+                cancel: 'Отменить',
+                firstName: 'Имя',
+                firstNameMessage: 'Имя должно начинаться с заглавной буквы, содержать от 2 до 20 символов и состоять из букв',
+                firstNameEnt: 'Введите ваше имя',
+                lastName: 'Фамилия',
+                lastNameMessage: 'Фамилия должна начинаться с заглавной буквы, содержать от 2 до 20 символов и состоять из букв',
+                lastNameEnt: 'Введите вашу фамилию',
+                // Certificate page
+                size: 'Количество',
+                all: 'Все',
+                my: 'Мои сертификаты',
+                search: 'Поиск',
+                date: 'Дата',
+                title: 'Название',
+                desc: 'Описание',
+                price: 'Цена',
+                edit: 'Редактировать',
+                delete: 'Удалить',
+                toBasket: 'В корзину',
+                close: 'Закрыть',
+                creationDate: 'Дата создания',
+                deleteQuestion: 'Вы хотите удалить этот сертификат?',
+                deleteCancel: 'ОТМЕНИТЬ',
+                deleteOk: 'ДА',
+                // Edit page
+                titleMessage: 'Название должно содержать от 2 до 25 символов, может состоять из букв, цифр и знака подчеркивания',
+                descMessage: 'Описание должно содержать от 10 до 240 символов, может состоять из букв, цифр, точек и запятых',
+                priceMessage: 'Пример цены - 1.99',
+                durationMessage: 'Длительность должна быть больше 0 и меньше 10000',
+                tagNameMessage: 'Имя тэга должно быть от 1 до 20 символов, в которые входит буквы, цифры и знаки подчёркивания',
+                editCertificate: 'Редактирование сертификата',
+                addCertificate: 'Добавление сертификата',
+                duration: 'Длительность',
+                tag: 'Тег',
+                enterTitle: 'Введите название',
+                enterDesc: 'Введите описание',
+                enterPrice: 'Введите цену',
+                enterDuration: 'Введите длительность',
+                enterTag: 'Введите имя тега',
+                add: 'Добавить',
+                save: 'Сохранить',
+                editCertificate: 'Сертификат был обновлён',
+                saveCertificate: 'Сертификат был создан',
+                deleteCertificate: 'Сертификат был удалён',
+                // Basket
+                basketTitle: 'Корзина покупателя',
+                buy: 'Купить',
+                buyMessage: 'Спасибо за ваш заказ',
+                clear: 'Очистить корзину',
+                clearQuestion: 'Вы действительно хотите очистить вашу корзину?',
+                cleanMessage: 'Вы очистили корзину'
+            }
+        });
+    }
+
+    getLang() {
+        return localStorage.getItem("LANGUAGE") != null ? localStorage.getItem("LANGUAGE") : "en";
+    }
+
+    getString(name) {
+        this.strings.setLanguage(this.getLang());
+        return this.strings[name];
+    }
+}
+
+export default new Localization();

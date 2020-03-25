@@ -1,0 +1,4 @@
+rootProject.name = 'Task_1'
+include(':controller')
+include(':service')
+include(':repository')

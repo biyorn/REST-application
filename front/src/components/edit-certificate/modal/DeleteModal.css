@@ -1,0 +1,25 @@
+.delete-body {
+    padding: 80px 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cancel-button {
+    margin: auto;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+}
+
+.ok-button {
+    margin: auto;
+    color: #b5b5b5;
+    border: none;
+    background-color: transparent;
+    padding: 5px 30px;
+}
+
+.ok-button:hover {
+    color: #7e7e7e;
+}

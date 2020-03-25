@@ -1,0 +1,157 @@
+.card {
+    margin-bottom: 30px;
+    box-shadow: 6px 6px 8px 0px rgba(122,122,122,0.5);
+}
+
+.content {
+    background-color: #d6e5ff;
+    height: 300px;
+}
+
+.title {
+    height: 60px;
+}
+
+.title-text p {
+    font-size: 25px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.title-date p {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.title-button {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.title-button:focus{
+    outline: none;
+}
+
+.Container {
+    margin-top: 10px;
+}
+
+.row-tags {
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+.row-desc {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    height: 230px;
+    line-height: 25px;
+}
+
+.row-desc p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer-container {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-buttons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer-buttons-item {
+    margin: 0;
+}
+
+.footer-buttons button {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.edit-button {
+    padding: 2px 12px;
+}
+
+.delete-button {
+    margin-left: 30px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Modal header */
+
+.modal-name, .modal-date {
+    padding-left: 10px;
+}
+
+.modal-date {
+    font-size: 15px;
+}
+
+/* Modal body */
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-container {
+    width: 100%;
+}
+
+.modal-tags {
+    background-color: #d6e5ff;
+    min-height: 100px;
+    padding-top: 5px;
+}
+
+.modal-desc {
+    margin-top: 20px;
+    opacity: 0.8;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 100px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.modal-desc p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Modal footer */
+
+.modal-footer {
+    padding: 5px 10px 5px 10px;
+}
+
+.modal-close {
+    float: right;
+}
+
+.modal-price {
+    float: left;
+    font-weight: bold;
+}

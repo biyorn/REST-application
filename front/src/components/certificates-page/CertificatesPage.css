@@ -1,0 +1,75 @@
+.search,
+.myCertificates,
+.go-button {
+    margin-top: 20px;
+}
+
+.go-button {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.search {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.search-input {
+    padding-right: 0;
+}
+
+.search-button {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+.type-certificates {
+    box-shadow: 6px 6px 10px 4px rgba(122,122,122,0.5);
+}
+
+.certificate-button {
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.certificates-item-div {
+    padding: 0;
+    margin: 0;
+}
+
+.certificates {
+    margin-top: 50px;
+}
+
+.bottom-part {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.item-button {
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.size-item-div {
+    padding: 0;
+    margin: 0;
+}
+
+.size-list {
+    box-shadow: 6px 6px 10px 4px rgba(122,122,122,0.5);
+}
+
+/* FILTER */
+
+.filter {
+    margin-top: 30px;
+    
+}

@@ -1,0 +1,50 @@
+.Login-page {
+    margin-top: 56px;
+}
+
+.login-place {
+    margin-top: 100px;
+    display: flex;
+}
+
+.login-form {
+    flex: 0 0 30%;
+}
+
+.login-picture {
+    flex: 0 0 70%;
+}
+
+.Form {
+    float: left;
+    margin-left: 100px;
+    width: 90%;
+}
+
+.Label {
+    float: left;
+    font-size: 14px;
+}
+
+.Control {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.success-button {
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cancel-login-button {
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+

@@ -1,0 +1,30 @@
+logs/
+*.log
+*.gz
+
+# Maven
+target/
+
+# Intellij IDEA
+.idea/
+*.iml
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+#Gradle
+.gradle
+*.hprof
+build/
+
+
